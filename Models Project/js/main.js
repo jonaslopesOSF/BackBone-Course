@@ -23,6 +23,8 @@ var carrinho = new Car({
     color: "Blue",
 });
 
+// testing
+
 carrinho.unset("registrationNumber");
 
 if(!carrinho.isValid());
