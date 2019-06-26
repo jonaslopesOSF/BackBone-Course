@@ -8,8 +8,8 @@ var Song = Backbone.Model.extend({
 var SongView = Backbone.View.extend({
 
     render: function(){
-        var source = $("songTemplate").html
-        var template = _.template(source);
+        var source = $("#songTemplate").html();
+		var template = _.template(source);
         //var template = _.template($("#songTemplate").html());
         
         var html = template(this.model.toJSON()); 
