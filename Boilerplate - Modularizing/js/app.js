@@ -10,7 +10,7 @@ define([
             var songView = new SongView({ el: "#container", model: song });
             songView.render();
         }
-
+        
         return {
             initialize: initialize
         }
